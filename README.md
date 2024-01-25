@@ -23,6 +23,7 @@ This guide is based on SELinux being disabled or in permissive mode. Steps to do
 
 Perform these steps to install the pre-requisite packages
 > yum install -y gcc glibc glibc-common wget unzip httpd php gd gd-devel perl postfix
+> 
 > yum install openssl-devel
 > dnf install -y gcc glibc glibc-common perl httpd php wget gd gd-devel
 > dnf install openssl-devel
